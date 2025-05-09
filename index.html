@@ -38,17 +38,17 @@
     </ul>
   </section>
 
-  <section id="appointment">
-    <h2>Book an Appointment</h2>
-    <form id="appointment-form">
-      <input type="text" placeholder="Full Name" required />
-      <input type="email" placeholder="Email" required />
-      <input type="date" required />
-      <input type="time" required />
-      <textarea placeholder="Reason for visit" required></textarea>
-      <button type="submit">Book Now</button>
-    </form>
-  </section>
+ <section id="appointment">
+  <h2>Book an Appointment</h2>
+  <form action="https://formspree.io/f/mjkworkl" method="POST">
+    <input type="text" name="name" placeholder="Full Name" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="date" name="date" required />
+    <input type="time" name="time" required />
+    <textarea name="message" placeholder="Reason for visit" required></textarea>
+    <button type="submit">Book Now</button>
+  </form>
+</section>
 
   <section id="schedule">
     <h2>Weekly Schedule</h2>
