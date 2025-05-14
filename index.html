@@ -40,14 +40,7 @@
 
  <section id="appointment">
   <h2>Book an Appointment</h2>
-  <form action="https://formspree.io/f/mdkgpqjb" method="POST">
-    <input type="text" name="name" placeholder="Full Name" required />
-    <input type="email" name="email" placeholder="Email" required />
-    <input type="date" name="date" required />
-    <input type="time" name="time" required />
-    <textarea name="message" placeholder="Reason for visit" required></textarea>
-    <button type="submit">Book Now</button>
-  </form>
+
 </section>
 
   <section id="schedule">
@@ -59,7 +52,22 @@
       <tr><td>Sunday</td><td>Closed</td></tr>
     </table>
   </section>
-
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mdkgpqjb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
   <section id="faq">
     <h2>Frequently Asked Questions</h2>
     <details>
@@ -83,14 +91,22 @@
     <a href="https://www.facebook.com/share/12K1kD1Xvbv/" target="_blank" class="facebook-btn">
       👍 Dr on Facebook
     </a>
-    
-    <form action="https://formspree.io/f/xqaqgrjo" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Your Email" required />
-  <textarea name="message" placeholder="Your Message" required></textarea>
-  <button type="submit">Send Message</button>
+ <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xqaqgrjo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
-
   <footer>
     <p>&copy; 2025 Dr. Inamullah. All rights reserved.</p>
   </footer>
